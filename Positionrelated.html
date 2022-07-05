@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .first{
+            height: 50px;
+            margin: 10px;
+            background: orangered;
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .third{
+            height: 150px;
+            margin: 2px;
+            background: green;
+            width: 100%;
+        }
+        .second{
+            height: 75px;
+            margin-top: 10px;
+            background: lightcyan;
+            width: 100%;
+            position: relative;
+            text-align: center;
+        }
+        .menu-bar{
+            background: brown;
+            text-align: center;
+        }
+        .menu-bar ul
+        {
+            display: inline-flex;
+            list-style: none;
+            color: #fff;     
+        }
+        .menu-bar ul li
+        {
+            width: 100px;
+            margin: 15px;
+            padding: 5px;
+        }
+        .menu-bar ul li a
+        {
+            text-decoration: none;
+            color: #fff;
+        }
+        .active, .menu-bar ul li:hover
+        {
+            background-color: yellowgreen;
+            border-radius: 3px;
+        }
+        .menu-bar .fa
+        {
+            margin-right: 5px;
+        }
+        .sub-menu-1
+        {
+            display: none;
+        }
+        .menu-bar ul li:hover .sub-menu-1
+        {
+            display: block;
+            position: absolute;
+            background: yellowgreen;
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-bar">
+        <h2>My Personal Blog</h2>
+        <ul>
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Services</li>
+            <li><a href="#"></a>Clients</li>
+            <li><a href="#"></a>Investors</li>
+            <li><a href="#"></a>Training</li>
+            <li><a href="#"></a> Contact us</li>
+            <li><a href="#"></a> Help</li>
+        </ul>
+    </div>
+    <div class="box second">
+        <h2>Welcome to second box</h2>
+    </div>
+    <div class="box third">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid excepturi illum possimus, sequi qui, ipsam minus iste minima porro odio quos eius voluptas atque error perferendis aperiam magni ab sed.
+        Modi distinctio nulla placeat eum inventore ut harum praesentium in fuga quidem quia quis magni laudantium at doloremque aliquid mollitia neque ipsam, recusandae ad reprehenderit numquam aut. Harum, commodi vero.</p>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus laudantium laboriosam recusandae beatae laborum, modi incidunt mollitia labore deserunt itaque doloremque rem accusamus alias ad repellendus ab praesentium quis.
+        Tenetur cum, officiis architecto dolorum atque sunt nam iusto ipsum error dolore est incidunt explicabo aspernatur! Eaque eius obcaecati modi blanditiis nemo, illum vero molestiae sint inventore, accusantium expedita harum.</P>
+    </div>
+</body>
+</html>
